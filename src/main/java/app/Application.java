@@ -14,11 +14,7 @@ public class Application {
         //AnimalsCage bean2 = applicationContext.getBean(AnimalsCage.class);
         AnimalsCage cage = applicationContext.getBean(AnimalsCage.class);
         cage.whatAnimalSay();
-        /*for (int i = 0; i < 5; i++) {
-            AnimalsCage bean =
-                    applicationContext.getBean(AnimalsCage.class);
-            bean.whatAnimalSay();
-        }*/
+        cage.getTimer();
     }
 
 }
